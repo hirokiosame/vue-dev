@@ -1,0 +1,24 @@
+{
+  "name": "vue-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.js",
+    "test": "echo \"Error: no 'test' specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "vue-dev": "vue-dev.js"
+  },
+  "dependencies": {
+    "opn": "^5.1.0",
+    "portfinder": "^1.0.13",
+    "vue": "^2.5.9",
+    "vue-loader": "^13.5.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7",
+    "yargs": "^10.0.3"
+  }
+}
