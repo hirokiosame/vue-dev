@@ -11,7 +11,7 @@ module.exports = {
 	resolve: {
 		alias: {
 			'vue$': 'vue/dist/vue.common.js',
-			'app': process.env.vueDevApp || '/Users/hiroki/Documents/Gits/jsfiddle-button-vue/dist/jsfiddle-btn.js',
+			'app': process.env.vueDevApp
 		},
 	},
 
